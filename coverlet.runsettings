@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat code coverage">
+        <Configuration>
+          <Format>cobertura</Format>
+          <!-- The application entry point (composition root) is excluded from coverage. -->
+          <Exclude>[Library.Api]Program</Exclude>
+          <!-- Build output and generated code (source generators, EF migrations) are excluded. -->
+          <ExcludeByFile>**/obj/**/*.cs,**/Migrations/*.cs</ExcludeByFile>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
