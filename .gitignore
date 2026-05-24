@@ -12,3 +12,7 @@ coverage*.xml
 coverage*.info
 Thumbs.db
 .DS_Store
+
+# Course assignment materials — kept local, not published
+task.md
+styleGuide.md
